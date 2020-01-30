@@ -13,8 +13,8 @@ You can recover the image after each steps of the Canny edge detector. The steps
 To use the Canny edge detector simply type:
 ```{python}
 img = CannyDetector(path       = path_to_image, 
-					scale      = kernel_scale, 
-					thresholds = [min_thr, max_thr]
+                    scale      = kernel_scale, 
+                    thresholds = [min_thr, max_thr]
 )
 ```
 And then you can recover all the intermediate steps by typing:
